@@ -6,8 +6,8 @@ class Shoe
   end
   
   def brand
-    
-    @brand="nike"
+    @brand="Nike"
+  end
   
   def cobble
       @condition = "new"
