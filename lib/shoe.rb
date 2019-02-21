@@ -1,10 +1,13 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand
-  
+
   def initalize(brand)
     @brand=brand
   end
+  
+  def brand
+    
+    @brand="nike"
   
   def cobble
       @condition = "new"
